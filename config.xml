@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.nummer11.shop" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.nummer11.shop" version="1.1">
 
 	<name>Snotaben bliver væk</name>
 	<description>Snotaben er ude at handle med sin mor og bliver væk.</description>
@@ -9,8 +9,8 @@
 	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
-	<gap:plugin name="org.apache.cordova.media" />
-	
+	<gap:plugin name="org.apache.cordova.media" source="npm" />
+
 	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
@@ -28,7 +28,7 @@
 
 	<gap:plugin name="org.crosswalk.engine" source="pgb" />
 
-	<!-- Optional splash screen image, e.g.: -->
+<!-- Optional splash screen image, e.g.: -->
 
 	<icon src="Icon.png" width="57" height="57" />
 	<icon src="Icon-72.png" width="72" height="72" gap:role="default" />
@@ -53,5 +53,6 @@
    <!-- Spotlight Icon -->
    <icon src="Icon-40.png" gap:platform="ios" width="40" height="40" />
    <icon src="Icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
 
 </widget>
